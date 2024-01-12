@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  gap: 100px;
+  margin: 20px;
+}
+
+.input,
+.output {
+  width: 45%;
+}
+
+.input-text {
+  width: 500px;
+  height: 400px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 100px;
+}
+
+.output-text {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 500px;
+  height: 400px;
+  color: black;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(208, 19, 19, 0.564);
+}
+
+h3,
+h1 {
+  color: black;
+}
